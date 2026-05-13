@@ -285,7 +285,7 @@
                         //figure.append(img, figcaption);
                         if (row['Class'] == 'leftDoubleImage') {
                             leftDiv.append(topdiv, bottomdiv);
-                            var captionText = 'Above: '+ row['Caption'] + ' | Below: ' + row['Caption2'];
+                            var captionText = '   ' + row['Caption2'];
                             var captionDiv = $('<div>').addClass('caption').text(captionText);
                         } else {
                             leftDiv.css('background-image', 'url(' + row['ImageSrc'] + ')');
